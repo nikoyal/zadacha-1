@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid> 
+        <Label x:Name="AnimalType" Content="Досие на Куче: " HorizontalAlignment="Left" Height="31" Margin="196,21,0,0" VerticalAlignment="Top" Width="107"/>
+        <Label Content="Име:" HorizontalAlignment="Left" Height="34" Margin="147,52,0,0" VerticalAlignment="Top" Width="34"/>
+        <Label Content="Пол: " HorizontalAlignment="Left" Height="26" Margin="147,91,0,0" VerticalAlignment="Top" Width="34"/>
+        <Label Content="Тегло:" HorizontalAlignment="Left" Height="25" Margin="137,133,0,0" VerticalAlignment="Top" Width="44"/>
+        <Label Content="Дата на раждане:" HorizontalAlignment="Left" Height="25" Margin="76,168,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label Content="Порода:" HorizontalAlignment="Left" Height="25" Margin="126,195,0,0" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="22" Margin="186,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" TextChanged="TextBox_TextChanged" Text="Рекс"/>
+        <TextBox x:Name="Sex" HorizontalAlignment="Left" Height="22" Margin="186,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="25" TextChanged="TextBox_TextChanged" Text="М"/>
+        <TextBox x:Name="Weight" HorizontalAlignment="Left" Height="22" Margin="186,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="25" TextChanged="TextBox_TextChanged" Text="6"/>
+        <TextBox x:Name="Birth" HorizontalAlignment="Left" Height="22" Margin="186,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" TextChanged="TextBox_TextChanged" Text="01.03.2020"/>
+        <TextBox x:Name="Breed" HorizontalAlignment="Left" Height="22" Margin="186,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" TextChanged="TextBox_TextChanged" Text="Джак Ръсел"/>
+        <Button Content="Котка" HorizontalAlignment="Left" Height="23" Margin="354,268,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click"/>
+        <Button Content="Последен преглед на куче" HorizontalAlignment="Left" Height="23" Margin="32,268,0,0" VerticalAlignment="Top" Width="149" Click="Button_Click_1"/>
+        <Label x:Name="Result" Content="" HorizontalAlignment="Left" Height="31" Margin="216,266,0,0" VerticalAlignment="Top" Width="107"/>
+
+    </Grid>
+</Window>
